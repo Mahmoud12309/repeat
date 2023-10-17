@@ -18,13 +18,12 @@ body {
 .container {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     width: fit-content;
     background: transparent;
     box-shadow: 1px 1px 20px 0px #00000042;
     flex-direction: column;
 }
-
 .container input {
     font-size: 17px;
     padding: 10px 5px;
@@ -58,8 +57,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: 10px 0;
     padding: 5px;
     flex-direction: column;
+}
+
+@media (max-width: 650px) {
+    .copy {
+        width: 85%;
+    }
+    
 }
 
 .copy .p {
